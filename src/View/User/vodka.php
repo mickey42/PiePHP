@@ -1,0 +1,1 @@
+<img src="../../webroot/assets/vodka.png" alt="chips">

@@ -1,0 +1,8 @@
+RedirectMatch 403 ^/TEST/.$
+RewriteEngine on
+RewriteRule ^TEST/.$ - [F,L]
+
+
+RewriteEngine on
+RewriteRule ^Core/.*$ /PiePHP/index.php [R]
+RewriteRule ^src/.*$ /PiePHP/index.php [R]
